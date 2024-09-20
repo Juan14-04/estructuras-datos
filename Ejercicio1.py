@@ -1,5 +1,5 @@
 class Animal:
-    def __init__(self, nombre, raza, peso: float, edad: int, tipo, sexo):
+    def __init__(self, nombre:str, raza:str, peso: float, edad: int, tipo:str, sexo:str):
         self.nombre = nombre
         self.raza = raza
         self.peso = peso
