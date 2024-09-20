@@ -1,5 +1,5 @@
 class Tarea:
-    def __init__(self, descripcion, prioridad, fecha_vencimiento):
+    def __init__(self, descripcion:str, prioridad:int, fecha_vencimiento:str):
         self.descripcion = descripcion
         self.prioridad = prioridad
         self.fecha = fecha_vencimiento
